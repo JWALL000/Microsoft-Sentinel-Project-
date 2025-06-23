@@ -40,7 +40,7 @@ to do this and as you can see we have new logons at 4:46:43 PM with the event ID
 ![Microsoft Sentinel Project7](https://github.com/JWALL000/Microsoft-Sentinel-Project-/blob/main/Sentinel%20Project%20for%20GitHub/Step%208%20-%20Windows%20Event%20logs.PNG)
 
 # Step 6 
-In this next step - we get Log.AnalyticsOMS configuured and set up. This would allow us to view out Windows event logs in our instance of Microspft Sentinel. 
+In this next step - we get Log.AnalyticsOMS configured and set up. This would allow us to view out Windows event logs in our instance of Microsoft Sentinel. 
 
 ![Microsoft Sentinel Project8](https://github.com/JWALL000/Microsoft-Sentinel-Project-/blob/main/Sentinel%20Project%20for%20GitHub/Step%2010%20-%20Setting%20up%20log%20repository.PNG)
 
@@ -92,8 +92,8 @@ I then played around with the settings in our attack map and could configure set
 
 
 ## Conclusion
-I highly enjoyed this lab as it gave me great insight into how fast threat actors work in real life when they try to exploit a potential vulneratbility. And using sentinel 
-as our SIEM gave me some valuable experience with Sentinel and how the Azure environment works at a basic level and lastly, I enjoyed  using the attack map to see where 
+I highly enjoyed this lab as it gave me great insight into how fast threat actors work in real life when they try to exploit a potential vulnerability. And using Sentinel 
+as our SIEM gave me some valuable experience with Sentinel and how the Azure environment works at a basic level and lastly, I enjoyed using the attack map to see where 
 our attackers IPs were orginating from. 
 
 Thanks for viewing my project - Hopefully this was as interesting to you as it was to me. 
