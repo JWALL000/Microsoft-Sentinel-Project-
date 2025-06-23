@@ -19,8 +19,8 @@ I then started to set up my virtual machine - this would be the honeypot that we
 
 
 # Step 3 
-It was now time to change some firewall settings. As you will notice - Microsfot Windows 11 comes standard with basic firewall rules for porjection against unwanted inbound 
-traffic. In this step I disable the firewall rules to allow attackers to ping and try to gain access to the machine. 
+It was now time to change some firewall settings. As you will notice - Microsfot Windows 11 comes standard with basic firewall rules for porjection against unwanted inbound traffic. 
+In this step I disable the firewall rules to allow attackers to ping and try to gain access to the machine. 
 ![Microsoft Sentinel Project5](https://github.com/JWALL000/Microsoft-Sentinel-Project-/blob/main/Sentinel%20Project%20for%20GitHub/Step5%20-%20Connecting%20via%20remote%20desktop.PNG)
 ![Microsoft Sentinel Project6](https://github.com/JWALL000/Microsoft-Sentinel-Project-/blob/main/Sentinel%20Project%20for%20GitHub/Step%206%20-%20Turning%20off%20firewall%20rules.PNG)
 
