@@ -21,7 +21,7 @@ I then started to set up my virtual machine - this would be the honeypot that we
 
 
 # Step 3 
-It was now time to change some firewall settings. As you will notice - Microsfot Windows 11 comes standard with basic firewall rules for porjection against unwanted inbound traffic. 
+It was now time to change some firewall settings. As you will notice - Microsoft Windows 11 comes standard with basic firewall rules for protection against unwanted inbound traffic. 
 In this step I disable the firewall rules to allow attackers to ping and try to gain access to the machine. 
 
 ![Microsoft Sentinel Project5](https://github.com/JWALL000/Microsoft-Sentinel-Project-/blob/main/Sentinel%20Project%20for%20GitHub/Step5%20-%20Connecting%20via%20remote%20desktop.PNG)
@@ -45,7 +45,7 @@ In this next step - we get Log.AnalyticsOMS configured and set up. This would al
 ![Microsoft Sentinel Project8](https://github.com/JWALL000/Microsoft-Sentinel-Project-/blob/main/Sentinel%20Project%20for%20GitHub/Step%2010%20-%20Setting%20up%20log%20repository.PNG)
 
 # Step 7 
-Next I installed Windows secutity events as a data collector in sentinel. Allow us to view security events in Sentinel from our VM.
+Next I installed Windows security events as a data collector in sentinel.This Allow me to view security events in Sentinel from my VM.
 
 ![Microsoft Sentinel Project9](https://github.com/JWALL000/Microsoft-Sentinel-Project-/blob/main/Sentinel%20Project%20for%20GitHub/Step%2011%20-%20Installing%20Windows%20Security%20Events%20into%20Sentinel.PNG)
 
@@ -57,7 +57,7 @@ I then had the task of configuring data collection rules. If this step was misse
 
 # Step 10 
 Now it was time to wait. After about half an hour later we started to see our logs in our Log analytic workspace - so our VM was connected successfully to Azure environment. 
-I also used this time to search thorugh our logs usings KQL. This made finding security events much easier. 
+I also used this time to search through our logs using KQL. This made finding security events much easier. 
 
 ![Microsoft Sentinel Project11](https://github.com/JWALL000/Microsoft-Sentinel-Project-/blob/main/Sentinel%20Project%20for%20GitHub/Step%2013%20-%20Using%20KQL%20to%20search%20through%20security%20events.PNG)
 
@@ -75,26 +75,23 @@ to get it as close to real time as possible. I started this step by opening a ne
 ![Microsoft Sentinel Project13](https://github.com/JWALL000/Microsoft-Sentinel-Project-/blob/main/Sentinel%20Project%20for%20GitHub/Step%2015%20-%20Using%20the%20two%20file%20templates%20to%20poplulate%20the%20Geolocations%20in%20our%20watchlist.PNG)
 
 # Step 13 
-Now it was time to upload some .json code into the workbook. This code would build out our attack map and included all known IPs of every region - this makes it possible to 
-indenitfy what countries and regions the attackers are from. 
+Now it was time to upload some .json code into the workbook. This code would build out our attack map and included all known IPs of every region - this makes it possible to identify what countries and regions the attackers are from. 
 
 ![Microsoft Sentinel Project15](https://github.com/JWALL000/Microsoft-Sentinel-Project-/blob/main/Sentinel%20Project%20for%20GitHub/Step%2017%20-%20New%20workbook%20edited.PNG)
 
 # Step 14 
-After that it was time to wait and see how well our map would work. After some time I started seeing IP addresses orginate from Romania trying to sign in to our PC. This was the first time 
-seeing the map work and I was very impressed. 
+After that it was time to wait and see how well our map would work. After some time I started seeing IP addresses originating from Romania trying to sign in to our PC. This was the first time seeing the map work and I was very impressed. 
 
 ![Microsoft Sentinel Project16](https://github.com/JWALL000/Microsoft-Sentinel-Project-/blob/main/Sentinel%20Project%20for%20GitHub/Step%2019%20-%20Created%20attack%20map.PNG)
 
-I then played around with the settings in our attack map and could configure settings to our personal prefences. 
+I then played around with the settings in our attack map and could configure settings to our personal preferences. 
 
 ![Microsoft Sentinel Project17](https://github.com/JWALL000/Microsoft-Sentinel-Project-/blob/main/Sentinel%20Project%20for%20GitHub/Step%2020%20-%20Looking%20at%20settings%20in%20attack%20map.PNG)
 
 
 ## Conclusion
 I highly enjoyed this lab as it gave me great insight into how fast threat actors work in real life when they try to exploit a potential vulnerability. And using Sentinel 
-as our SIEM gave me some valuable experience with Sentinel and how the Azure environment works at a basic level and lastly, I enjoyed using the attack map to see where 
-our attackers IPs were orginating from. 
+as our SIEM gave me some valuable experience with Sentinel and how the Azure environment works at a basic level and lastly, I enjoyed using the attack map to see where our attackers IPs were originating from. 
 
 Thanks for viewing my project - Hopefully this was as interesting to you as it was to me. 
 
